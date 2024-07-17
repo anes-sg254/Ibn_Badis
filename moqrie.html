@@ -1,0 +1,314 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>الصفحة الرئيسية</title>
+    <link rel="stylesheet" href="css/style.css" />
+    <link
+      rel="shortcut icon"
+      type="image/png"
+      href="img/madrassa/ibs_icon_white_no_writed.png"
+    />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Inter:wght@100;200;300;400;500;600;700;800;900&family=Lilita+One&family=Noto+Kufi+Arabic:wght@100;200;300;400;500;600;700;800;900&display=swap"
+      rel="stylesheet"
+    />
+    <script
+      type="module"
+      src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.esm.js"
+    ></script>
+    <script
+      nomodule
+      src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.js"
+    ></script>
+    <script src="translation.js"></script>
+  </head>
+  <body>
+    <img class="robot" src="img/madrassa/robot.png" alt="the assistant robot" />
+    <div class="dialog invisible">
+      <div class="dialog_chatbox--exit"></div>
+      <div class="dialog_chatbox"></div>
+    </div>
+    <main class="section-presentation">
+      <header class="header header_noMargin">
+        <a class="logo" href="./home.html">
+          <img src="img/madrassa/ibs_icon_no_writed.png" alt="Ibn Badis Logo" />
+        </a>
+        <nav class="navigation">
+          <ul class="navigation_list">
+            <li class="navigation_list--link navigation_text" href="#">
+              <a
+                href="./contact-us.html"
+                style="text-decoration: none"
+                class="navigation_text black"
+                id="textToTranslate"
+                data-translate=""
+              >
+                <div class="arabic">إتصل بنا</div>
+                <div class="deutch no-display">contacter nous</div>
+              </a>
+            </li>
+            <li class="navigation_list--link navigation_text" href="#">
+              <a
+                href="#registration"
+                style="text-decoration: none"
+                class="navigation_text black"
+              >
+                <div class="arabic">سجل للعام المقبل</div>
+                <div class="deutch no-display">registration</div>
+              </a>
+            </li>
+            <li class="navigation_list--link navigation_text" href="#">
+              <a
+                href="./dar-al-kotob.html"
+                style="text-decoration: none"
+                class="navigation_text black"
+              >
+                <div class="arabic">إشتري كتاب</div>
+                <div class="deutch no-display">acheter un livre</div>
+              </a>
+            </li>
+            <li
+              class="navigation_list--link list navigation_text black"
+              href="#"
+              dir="rtl"
+            >
+              <div class="arabic">⌄ مدرستي</div>
+              <div class="deutch no-display">mon école</div>
+
+              <div class="navigation_list--link-nav invisible" dir="rtl">
+                <ul class="sub_nav" dir="rtl">
+                  <li class="sub_nav--item" dir="rtl">
+                    <a
+                      href="./schedule.html"
+                      style="text-decoration: none"
+                      class="sub_nav--item black"
+                    >
+                      <div class="arabic">جدول الحصص</div>
+                      <div class="deutch no-display">planning</div>
+                    </a>
+                  </li>
+                  <li class="sub_nav--item" dir="rtl">
+                    <a
+                      href="#activities"
+                      style="text-decoration: none"
+                      class="sub_nav--item black"
+                    >
+                      <div class="arabic">مناسبات</div>
+                      <div class="deutch no-display">evennement</div>
+                    </a>
+                  </li>
+                  <li class="sub_nav--item" dir="rtl">
+                    <a
+                      href="./banin-wa-banat.html"
+                      style="text-decoration: none"
+                      class="sub_nav--item black"
+                    >
+                      <div class="arabic">بنين و بنات</div>
+                      <div class="deutch no-display">fille et gars</div>
+                    </a>
+                  </li>
+                  <li class="sub_nav--item" dir="rtl">
+                    <a
+                      href="#"
+                      style="text-decoration: none"
+                      class="sub_nav--item black"
+                    >
+                      <div class="arabic">المقرأ</div>
+                      <div class="deutch no-display">lecteur</div>
+                    </a>
+                  </li>
+                </ul>
+              </div>
+            </li>
+            <li class="navigation_list--link navigation_text black">
+              <a
+                href="./home.html"
+                style="text-decoration: none"
+                class="navigation_text black"
+              >
+                <div class="arabic">الرئيسية</div>
+                <div class="deutch no-display">principale</div>
+              </a>
+            </li>
+            <li class="navigation_list--link navigation_text black" href="#">
+              <a
+                href="https://eremote.ibnbadis.ch/wp-login.php"
+                style="text-decoration: none"
+                class="navigation_text black"
+              >
+                <div class="arabic">تسجيل الدخول</div>
+                <div class="deutch no-display">connexion</div>
+              </a>
+            </li>
+          </ul>
+        </nav>
+        <button class="btn-mobile-nav">
+          <div class="nav-background" dir="rtl"></div>
+          <div class="nav-icon">
+            <ion-icon name="menu-outline" class="icon-mobile-nav"></ion-icon>
+            <ion-icon name="close-outline" class="icon-mobile-nav"></ion-icon>
+          </div>
+        </button>
+      </header>
+
+      <div class="sectionPresentation_content">
+        <div class="sectionPresentation_content--left">
+          <img src="img/madrassa/coran.png" alt="library picture" />
+        </div>
+        <div
+          class="sectionPresentation_content--right"
+          dir="rtl"
+          style="position: relative"
+        >
+          <h1 class="presentation_title">المقرأ</h1>
+          <div class="inputs">
+            <div class="moqrie_form--items">
+              <div class="inputs_item">
+                <label for="name" class="input_label">إسم المقرأ</label>
+                <div class="input_content">
+                  <input
+                    type="text"
+                    name="name"
+                    placeholder="اسلام صبحي"
+                    class="input_content--item"
+                  />
+                </div>
+              </div>
+              <div class="inputs_item">
+                <label for="family name" class="input_label">إسم السورة</label>
+                <div class="input_content">
+                  <input
+                    type="text"
+                    name="family name"
+                    placeholder="الرحمان"
+                    class="input_content--item"
+                  />
+                </div>
+              </div>
+              <div class="inputs_item">
+                <label for="birth day" class="input_label">من الآية</label>
+                <div class="input_content">
+                  <input
+                    type="text"
+                    name="birth day"
+                    placeholder="1"
+                    class="input_content--item"
+                  />
+                </div>
+              </div>
+              <div class="inputs_item">
+                <label for="sexe" class="input_label">إلى الآية</label>
+                <div class="input_content">
+                  <input
+                    type="text"
+                    name="sexe"
+                    placeholder="13"
+                    class="input_content--item"
+                  />
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="player" dir="rtl">
+            <div class="first_part" dir="rtl">
+              <img
+                src="./img/icons/monter-le-son.png"
+                alt="play button"
+                class="btn_sound"
+              />
+              <img
+                src="./img/icons/Polygon 1.png"
+                alt="play button"
+                class="btn_play"
+              />
+              <img
+                src="./img/icons/loop.png"
+                alt="play button"
+                class="btn_loop"
+              />
+            </div>
+            <div class="second_part" dir="rtl">
+              <h6>03:45</h6>
+              <div class="line" dir="ltr">
+                <div class="line_grey">
+                  <div class="line_red">
+                    <div class="line_red--line" dir="rtl">
+                      <div class="line_red--circle"></div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <h6>02:10</h6>
+            </div>
+          </div>
+        </div>
+      </div>
+    </main>
+    <footer dir="rtl">
+      <ul class="contacts">
+        <li class="contacts_item">
+          <p class="contacts_item--text">جهات الاتصال</p>
+        </li>
+        <li class="contacts_item">
+          <figure class="contacts_item--icon">
+            <img src="./img/icons/email.png" alt="email icon" />
+          </figure>
+          <p class="contacts_item--text">info@ibnbadis.ch</p>
+        </li>
+        <li class="contacts_item">
+          <figure class="contacts_item--icon">
+            <img src="./img/icons/position_icon.png" alt="position icon" />
+          </figure>
+          <p class="contacts_item--text">
+            Bahnstrasse 80, 8105 Regensdorf, switzerland
+          </p>
+        </li>
+      </ul>
+      <ul class="accounts">
+        <li class="accounts_item">حسابات</li>
+        <li class="accounts_item">
+          <a
+            href="https://eremote.ibnbadis.ch/wp-login.php"
+            class="accounts_item--link"
+          >
+            تسجيل الدخول
+          </a>
+        </li>
+      </ul>
+      <div class="apps">
+        <figure class="icon">
+          <a href="#">
+            <img
+              src="./img/madrassa/ibs_icon_white_no_writed.png"
+              alt="logo ibn badis"
+            />
+          </a>
+        </figure>
+        <h1 class="description">
+          متوفر
+          <span style="font-weight: 900">تطبيق Moobin</span>
+          على الهاتف
+        </h1>
+        <div class="apps_btns">
+          <figure class="android">
+            <a
+              href="https://play.google.com/store/apps/details?id=com.moobin.ibs&hl=zu&gl=US"
+            >
+              <img src="./img/android-app.png" alt="logo ibn badis" />
+            </a>
+          </figure>
+          <figure class="ios">
+            <a href="https://apps.apple.com/be/app/moobin/id6464114888?l=fr-FR">
+              <img src="./img/ios-app.png" alt="logo ibn badis" />
+            </a>
+          </figure>
+        </div>
+      </div>
+    </footer>
+    <script src="./js/dar-al-kotob.js"></script>
+  </body>
+</html>

@@ -1,0 +1,31 @@
+.activities {
+  padding: 9.6rem 0;
+
+  &_content {
+    background-color: $color_tertiary;
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    align-items: center;
+    justify-content: center;
+  }
+  &_list {
+    list-style-type: none;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    gap: $testimonials_gap;
+
+    &--item {
+      font-size: 2.8rem;
+      font-weight: 600;
+      color: rgba($color: $color_white, $alpha: 1);
+      transition: all 0.2s;
+
+      &:hover {
+        color: rgba($color: $color_secondary, $alpha: 1);
+        cursor: default;
+      }
+    }
+  }
+}

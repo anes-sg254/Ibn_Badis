@@ -1,0 +1,24 @@
+.navigation_list--link-nav {
+  .sub_nav {
+    list-style: none;
+    display: flex;
+    justify-content: flex-start;
+    align-items: flex-start;
+    flex-direction: column;
+    width: 20vw;
+    z-index: 100000;
+
+    &--item {
+      font-weight: 400;
+      margin: 1rem;
+      transition: all 0.4s;
+      color: $color_black;
+
+      &:hover,
+      &:active {
+        color: $color_secondary;
+        font-weight: 600;
+      }
+    }
+  }
+}

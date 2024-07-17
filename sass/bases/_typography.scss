@@ -1,0 +1,53 @@
+.navigation_text {
+  color: $color_white;
+  font-size: 1.6rem;
+  font-weight: 600;
+  transition: all 0.4s;
+
+  &:hover {
+    color: $color_secondary;
+    cursor: pointer;
+  }
+}
+
+.heading_primary_hero {
+  color: $color_white;
+  font-size: 9.6rem;
+  font-weight: 600;
+}
+
+.heading_secondary_hero {
+  color: $color_white;
+  font-size: 3.6rem;
+  font-weight: 400;
+}
+
+.sub_heading_primary {
+  font-size: 3.2rem;
+  font-weight: 600;
+  color: $color_primary;
+}
+.heading_primary {
+  font-size: 4.8rem;
+  font-weight: 600;
+  margin-bottom: 7.2rem;
+}
+.step-number {
+  font-family: "Lilita One", sans-serif;
+  font-size: 16.4rem;
+  font-weight: 400;
+  color: rgba($color: $color_black, $alpha: 0.6);
+}
+.heading_secondary {
+  font-size: 3.2rem;
+  font-weight: 600;
+  margin-bottom: 3.2rem;
+  width: 40vw;
+}
+
+.step-description {
+  width: 40vw;
+  font-size: 2.8rem;
+  font-weight: 300;
+  line-height: 5rem;
+}

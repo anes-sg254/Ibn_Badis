@@ -1,0 +1,13 @@
+@media (max-width: 900px) {
+  .contact-us {
+    background-size: cover;
+    height: 50vh;
+  }
+}
+
+@media (max-width: 600px) {
+  .contact-us {
+    background-size: contain;
+    height: 50vh;
+  }
+}

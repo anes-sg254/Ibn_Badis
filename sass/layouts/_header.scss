@@ -1,0 +1,56 @@
+.header {
+  display: flex;
+  justify-content: space-between;
+  margin-left: 9.6rem;
+  margin-right: 9.6rem;
+  margin-top: 3.2rem;
+  margin-bottom: 1vh;
+  animation-name: moveInTop;
+  animation-duration: 0.5s;
+  animation-timing-function: ease-out;
+  animation-delay: 0.75s;
+  animation-fill-mode: backwards;
+  transition: all 0.4s;
+
+  &_noMargin {
+    margin-bottom: 0;
+  }
+
+  .logo img {
+    height: 6rem;
+    width: 6rem;
+  }
+  .navigation {
+    &_list {
+      display: flex;
+      align-items: center;
+      justify-content: flex-end;
+      gap: 3.2rem;
+      list-style-type: none;
+      margin-bottom: 1rem;
+      margin-top: 1rem;
+      margin-left: 25.6rem;
+
+      &--link {
+        &-nav {
+          position: absolute;
+          top: 4rem;
+          border-radius: 8px;
+          background-color: $color_white;
+          color: $color_white;
+          padding: 1.6rem 2.4rem;
+          width: 20vw;
+          box-shadow: 0 0.4rem 10px rgba($color_black, 1);
+          transition: all 0.8s;
+          z-index: 100;
+        }
+      }
+      &--link:last-child {
+        margin-left: 22.4rem;
+      }
+      &--link:nth-child(4) {
+        position: relative;
+      }
+    }
+  }
+}

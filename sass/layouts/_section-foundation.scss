@@ -1,0 +1,12 @@
+.section-foundation {
+  .foundations {
+    display: grid;
+    row-gap: 9.6rem;
+    column-gap: 32.8rem;
+    grid-template-columns: repeat(
+      2,
+      calc((100vw - 2 * (#{$foundations_margin_vertical})) / 2)
+    );
+    margin: 12.8rem $foundations_margin_vertical;
+  }
+}
